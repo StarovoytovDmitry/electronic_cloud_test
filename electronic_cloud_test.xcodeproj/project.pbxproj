@@ -76,17 +76,49 @@
 		B72910171F36F822006F3CF3 /* electronic_cloud_test */ = {
 			isa = PBXGroup;
 			children = (
-				B72910181F36F822006F3CF3 /* AppDelegate.swift */,
-				B729101A1F36F822006F3CF3 /* ViewController.swift */,
-				B771975F1F36FC4C0019EA2C /* DataManager.swift */,
-				B77197631F36FCDC0019EA2C /* Model.swift */,
-				B77197611F36FCA40019EA2C /* data.json */,
-				B729101C1F36F822006F3CF3 /* Main.storyboard */,
+				B77197661F3708010019EA2C /* Delegates */,
+				B77197651F3707EE0019EA2C /* Model */,
+				B77197671F3708070019EA2C /* Controllers */,
+				B77197681F3708100019EA2C /* Views */,
 				B729101F1F36F822006F3CF3 /* Assets.xcassets */,
-				B72910211F36F822006F3CF3 /* LaunchScreen.storyboard */,
 				B72910241F36F822006F3CF3 /* Info.plist */,
 			);
 			path = electronic_cloud_test;
+			sourceTree = "<group>";
+		};
+		B77197651F3707EE0019EA2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B771975F1F36FC4C0019EA2C /* DataManager.swift */,
+				B77197631F36FCDC0019EA2C /* Model.swift */,
+				B77197611F36FCA40019EA2C /* data.json */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B77197661F3708010019EA2C /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B72910181F36F822006F3CF3 /* AppDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		B77197671F3708070019EA2C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B729101A1F36F822006F3CF3 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B77197681F3708100019EA2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B729101C1F36F822006F3CF3 /* Main.storyboard */,
+				B72910211F36F822006F3CF3 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		BB1ADE51DDA55214BFF56DD8 /* Frameworks */ = {

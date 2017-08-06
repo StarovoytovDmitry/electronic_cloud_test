@@ -15,6 +15,8 @@
 		B77197601F36FC4C0019EA2C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B771975F1F36FC4C0019EA2C /* DataManager.swift */; };
 		B77197621F36FCA40019EA2C /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B77197611F36FCA40019EA2C /* data.json */; };
 		B77197641F36FCDC0019EA2C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77197631F36FCDC0019EA2C /* Model.swift */; };
+		B771976B1F3708970019EA2C /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77197691F3708970019EA2C /* UserTableViewCell.swift */; };
+		B771976C1F3708970019EA2C /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B771976A1F3708970019EA2C /* UserTableViewCell.xib */; };
 		DBF304B570A84430790AF394 /* Pods_electronic_cloud_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F76729ABB0262C677997EB /* Pods_electronic_cloud_test.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		B771975F1F36FC4C0019EA2C /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		B77197611F36FCA40019EA2C /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = SOURCE_ROOT; };
 		B77197631F36FCDC0019EA2C /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B77197691F3708970019EA2C /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		B771976A1F3708970019EA2C /* UserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				B729101A1F36F822006F3CF3 /* ViewController.swift */,
+				B77197691F3708970019EA2C /* UserTableViewCell.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 		B77197681F3708100019EA2C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B771976A1F3708970019EA2C /* UserTableViewCell.xib */,
 				B729101C1F36F822006F3CF3 /* Main.storyboard */,
 				B72910211F36F822006F3CF3 /* LaunchScreen.storyboard */,
 			);
@@ -196,6 +202,7 @@
 				B72910201F36F822006F3CF3 /* Assets.xcassets in Resources */,
 				B729101E1F36F822006F3CF3 /* Main.storyboard in Resources */,
 				B77197621F36FCA40019EA2C /* data.json in Resources */,
+				B771976C1F3708970019EA2C /* UserTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 				B77197601F36FC4C0019EA2C /* DataManager.swift in Sources */,
 				B72910191F36F822006F3CF3 /* AppDelegate.swift in Sources */,
 				B77197641F36FCDC0019EA2C /* Model.swift in Sources */,
+				B771976B1F3708970019EA2C /* UserTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
